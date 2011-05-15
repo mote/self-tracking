@@ -1,0 +1,29 @@
+Passive tools to monitor my electronic life.
+Many of these are cron'd to run nightly.
+
+To get these to work, rename config-sample.py to config.py
+
+
+
+ 
+TODO:
+* disk usage for backup.motespace.com
+* # days ago moneydance data file was last modified
+* # days ago backups were made of hard drives, phones, cameras
+* del.icio.us counts
+* last.fm counts
+* media pc (boxee) counts
+* browsing
+  * can i programmatically get the number of chrome tabs open?
+  * number pages visited today (parsed from chrome history file?)
+* google
+  * number gws searches today
+  * total file usage, num files
+  * calendar (time spent in meetings per day)
+* steam api
+  * # hours played today?  (bummer can't do this, it looks like)
+
+* some of this stuff is for yesterday (microblog, uptime, loads, etc) some of
+  it is for today; would be nice if i output yesterdays datetime for the
+  others, so as not to throw off stats like "how much coding do you do per
+  day?"
