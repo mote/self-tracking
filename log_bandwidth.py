@@ -5,7 +5,7 @@ import datetime
 import sys
 
 CMD_IN = 'curl -o /dev/null --stderr - motespace.com/random_10M'
-CMD_OUT = 'scp /home/mote/dev/load/random_5M motespace.com:/dev/null'
+CMD_OUT = 'scp /home/mote/dev/self_tracking/random_5M motespace.com:/dev/null'
 
 
 def rescale_to_k(k_str):

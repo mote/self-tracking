@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 import datetime
 from lib import pywapi
 
